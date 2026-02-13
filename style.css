@@ -1,0 +1,40 @@
+body
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90vh;
+    background: rgb(255, 55, 0);
+}
+
+h2
+{
+    scale: 2;
+
+}
+
+.caixa
+{
+    padding: 20px;
+    width: 200px;
+    background: linear-gradient(45deg, red, orange );
+    box-shadow: 0 0 15px;
+    border-radius: 15px;
+}
+
+button
+{
+    border-radius: 10px;
+    padding: 5px;
+    background: rgb(255, 132, 0);
+    border-style: inherit;
+    box-shadow: 0 0 10px rgba(0, 0, 0 ,0.5);
+}
+
+button:hover
+{
+    background: rgb(255, 146, 30);
+    cursor: pointer;
+}
